@@ -18,4 +18,4 @@ Route::get('/', function () {
 });
 
 // created route for product controller
-Route::resource('products', 'App/Http/Controllers/productController');
+Route::resource('products', 'App\Http\Controllers\productController');
